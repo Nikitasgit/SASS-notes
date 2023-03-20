@@ -1,0 +1,23 @@
+/*Settings = tous les réglages généraux */
+
+@font-face{
+    font-family: "font1";
+    src:url(./assest/fonts/Montserrat-Light.ttf);
+}
+$font1: "font1", sans-serif;
+$color1: pink;
+$color2: orange;
+$color3: black;
+
+/*MIXINS*/
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    background: $color2;
+    font-family: $font1;
+}
